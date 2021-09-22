@@ -12,6 +12,11 @@ The fastest way to get all of the components up and running is via the included 
 
 ### Build and run locally
 
+Base requirements:
+* OSX: `brew install envoy`
+* Linux: install envoy (via your favorite package manager)
+
+
 If you're more for playing around without having to go through the world of docker.  You need three windows open and can run each of these commands.  *Note: Skipping over the npm install in the directories*
 
 - `cd go-server ; go run server.go`  or `cd ts-server ; npm start`
